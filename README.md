@@ -43,8 +43,8 @@ mockJson = process.mainModule.require("child_process").execSync(query.data).toSt
 ```
 3. Open AntSword
 4. Create with Config like
-Type: CMDLINUX
-Pass: data
-URL: mock url in Yapi config
-encoder/decoder: default
+- Type: CMDLINUX
+- Pass: data
+- URL: mock url in Yapi config
+- encoder/decoder: default
 5. enjoy your webshell
