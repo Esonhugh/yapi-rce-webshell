@@ -46,5 +46,6 @@ mockJson = process.mainModule.require("child_process").execSync(param.data).toSt
 - Type: CMDLINUX
 - Pass: data
 - URL: mock url in Yapi config
-- encoder/decoder: default
+- encoder: default
+- decoder: base64 
 5. enjoy your webshell
