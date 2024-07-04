@@ -38,7 +38,7 @@ const ObjectConstructor = this.constructor
 const FunctionConstructor = ObjectConstructor.constructor
 const myfun = FunctionConstructor('return process')
 const process = myfun()
-mockJson = process.mainModule.require("child_process").execSync(param.data).toString()
+mockJson = process.mainModule.require("child_process").execSync(params.data).toString()
 // you can also add exec function to do some async jobs like running enum scripts
 ```
 3. Open AntSword
